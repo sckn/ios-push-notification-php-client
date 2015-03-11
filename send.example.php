@@ -1,10 +1,3 @@
-# ios-notify-php-client
-
-This program send push notification for ios.
-
-Example
--------
-```php
 <?php
 require("push.class.php");
 
@@ -13,4 +6,3 @@ $notify = new push();
 $notify->device_token = "token-here";
 $notify->alert = 'seckin test';
 $notify->send();
-```
